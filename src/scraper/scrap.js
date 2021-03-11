@@ -4,7 +4,7 @@ async function scraper() {
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
 
-    await page.goto('http://www.portaltransparencia.gov.br/servidores/consulta?orgaosServidorExercicio=OR21000&tipo=2&ordenarPor=nome&direcao=asc', { waitUntil: "domcontentloaded", timeout: 300000 });
+    await page.goto('http://www.portaltransparencia.gov.br/servidores/consulta?orgaosServidorExercicio=OR21000&tipo=2&ordenarPor=nome&direcao=asc', { waitUntil: "domcontentloaded", timeout: 120000 });
     await page.waitForSelector("#lista")
 
     const scrap = await page.evaluate(async () => {
