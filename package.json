@@ -1,10 +1,11 @@
 {
-  "name": "Teste",
+  "name": "teste",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node node_modules/nodemon/bin/nodemon bin/server"
+    "start": "node bin/server.js",
+    "dev": "npx nodemon bin/server"
   },
   "keywords": [],
   "author": "",
