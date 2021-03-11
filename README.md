@@ -58,7 +58,7 @@ ou
 
 ## Informações importantes
 
-Como se trata de um site governamental com muitos dados e de uma aplicação que envolve inserção em um banco de dados, é necessário aguardar alguns minutos para listar os dados do banco, caso contrário a listagem virá vazia. Nas primeiras vezes em que o projeto é iniciado pode ser que aconteça um erro de timeout, para resolver basta encerrar a aplicação, iniciá-la novamente e acionar a rota de inserção novamente.
+Como se trata de um site governamental com muitos dados e de uma aplicação que envolve inserção em um banco de dados, é necessário aguardar alguns minutos para listar os dados do banco, caso contrário a listagem virá vazia. Nas primeiras vezes em que o projeto é iniciado pode ser que aconteça um erro de timeout, para resolver basta encerrar a aplicação, iniciá-la e acionar a rota de inserção novamente.
 
 ## Capturas de tela para auxílio nos testes - Insomnia
 
