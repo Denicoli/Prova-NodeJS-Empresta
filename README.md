@@ -26,7 +26,7 @@ A API utiliza a ferramenta [Puppeteer](https://pptr.dev/) para a raspagem dos da
 
 ```
 
-Renomeie o arquivo `.env.example` para `.env` e preencha a variável de ambiente com o que foi fornecido.
+Renomeie o arquivo `.env.example` para `.env` e preencha a variável de ambiente com a string de conexão do banco de dados.
 
 
 * Instale as dependências:
