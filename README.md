@@ -1,6 +1,6 @@
 # Prova NodeJS - Empresta Bem Melhor
 
-## API NodeJS desenvolvida para retirar dados específicos do site Portal da Transparência utizilando a ferramenta Puppeteer e popular um banco de dados NoSQL com as informações adquiridas.
+## API NodeJS desenvolvida para retirar dados específicos do site Portal da Transparência utilizando a ferramenta Puppeteer e popular um banco de dados NoSQL com as informações adquiridas.
 
 ### Features
 
@@ -12,7 +12,7 @@
 
 ## Banco de dados
 
-O projeto usa [MongoDB](https://www.mongodb.com) como banco de dados
+O projeto usa [MongoDB](https://www.mongodb.com) como banco de dados.
 
 ## API
 
