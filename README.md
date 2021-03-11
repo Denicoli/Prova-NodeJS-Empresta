@@ -21,25 +21,40 @@ O projeto usa [MongoDB](https://www.mongodb.com) como banco de dados.
 ```
 1. git clone https://gitlab.com/Denicoli/prova-node.git
 2. cd prova-node
-```
 
-* Instale as dependências e inicie a aplicação:
+```
+Renomeie o arquivo `.env.example` para `.env` e preencha a variável de ambiente com o que foi fornecido.
+
+* Instale as dependências:
 
 ```
 3. yarn install
-4. yarn install puppeteer (necessário para evitar conflitos)
-5. yarn start
+
 ```
 
 ou
 
 ```
 3. npm install
-4. npm install puppeteer (necessário para evitar conflitos)
-5. npm start
+
+```
+*  Inicie a aplicação:
+
+```
+4. yarn start
+
 ```
 
-Renomeie o arquivo `.env.example` para `.env` e preencha a variável de ambiente com o que foi fornecido.
+ou
+
+```
+4. npm start
+
+```
+
+## Informações importantes
+
+Como se trata de um site governamental com muitos dados e de uma aplicação que envolve inserção em um banco de dados, é necessário aguardar alguns minutos para listar os dados do banco, caso contrário a listagem virá vazia.
 
 ## Capturas de tela para auxílio nos testes - Insomnia
 
