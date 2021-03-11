@@ -10,11 +10,13 @@
 
 ## Instalando a API
 
-## Banco de dados
+### Banco de dados
 
-O projeto usa [MongoDB](https://www.mongodb.com) como banco de dados.
+A API utiliza [MongoDB](https://www.mongodb.com) como banco de dados.
 
-## API
+### API
+
+A API utiliza a ferramenta [Puppeteer](https://pptr.dev/) para a raspagem dos dados.
 
 * Para baixar o projeto siga as instruções abaixo:
 
@@ -23,7 +25,9 @@ O projeto usa [MongoDB](https://www.mongodb.com) como banco de dados.
 2. cd prova-node
 
 ```
+
 Renomeie o arquivo `.env.example` para `.env` e preencha a variável de ambiente com o que foi fornecido.
+
 
 * Instale as dependências:
 
@@ -54,7 +58,7 @@ ou
 
 ## Informações importantes
 
-Como se trata de um site governamental com muitos dados e de uma aplicação que envolve inserção em um banco de dados, é necessário aguardar alguns minutos para listar os dados do banco, caso contrário a listagem virá vazia.
+Como se trata de um site governamental com muitos dados e de uma aplicação que envolve inserção em um banco de dados, é necessário aguardar alguns minutos para listar os dados do banco, caso contrário a listagem virá vazia. Nas primeiras vezes em que o projeto é iniciado pode ser que aconteça um erro de timeout, para resolver basta encerrar a aplicação, iniciá-la novamente e acionar a rota de inserção novamente.
 
 ## Capturas de tela para auxílio nos testes - Insomnia
 
